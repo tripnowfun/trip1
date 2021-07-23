@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
 		
-		<title>Our Offer</title>
+		<title>Home ru</title>
 		<!-- Loading third party fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,600,700" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,700" rel="stylesheet" type="text/css">
 		<link href="../fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
 		<!-- Loading main css file -->
 		<link rel="stylesheet" href="../css/animate.min.css">
@@ -29,7 +29,7 @@
 
 	</head>
 
-	<body>
+	<body class="slider-collapse">
 		
 		<div id="site-content">
 			
@@ -45,7 +45,7 @@
 							<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
 							<ul class="menu">
 								<li class="menu-item"><a href="about-us.html">About us</a></li>
-								<li class="menu-item  current-menu-item"><a href="our-offer.html">Our Offer</a></li>
+								<li class="menu-item"><a href="our-offer.html">Our Offer</a></li>
 								<li class="menu-item"><a href="contact.html">Contact</a></li>
 							</ul>
 						</nav>
@@ -55,108 +55,129 @@
 							<a hreflang="en" href="https://www.tripnow.fun/en/" class="lang-en" lang="en" title="English"><i class="fa">EN</i></a>
 						</div>
 					</div>
-					<nav class="breadcrumbs">
-						<a href="index.html">Home</a> &rarr;
-						<span>Our Offer</span>
-					</nav>
 				</div>
 			</header> <!-- .site-header -->
 
 			<main class="content">
-				<div class="fullwidth-block">
-					<div class="container">
-						<div class="filter-links filterable-nav">
-							<select class="mobile-filter">
-								<option value="*">Show all</option>
-								<option value=".azov">Azov</option>
-								<option value=".kobleve">Kobleve</option>
-							</select>
-							<a href="#" class=" current wow fadeInRight" data-filter="*">Show all</a>
-							<a href="#" class="wow fadeInRight" data-wow-delay=".4s" data-filter=".azov">Azov</a>
-							<a href="#" class="wow fadeInRight" data-wow-delay=".6s" data-filter=".kobleve">Kobleve</a>
-							<a href="#" class="wow fadeInRight" data-wow-delay=".6s" data-filter=".zatoka">Zatoka</a>
+				<div class="slider">
+					<ul class="slides">
+						<li data-background="../images/slides/slide-1.jpg">
+							<div class="container">
+								<div class="slide-caption col-md-4">
+									<h2 class="slide-title">Exquisite Vacations Designed for You by Our Experts</h2>
+									<p>Our travel advisors are passionate about creating exceptional vacations. We deliver enriching and rewarding itineraries that offer exceptional value and quality.</p>
+								</div>
+							</div>
+						</li>
+						<li data-background="../images/slides/slide-2.jpg">
+							<div class="container">
+								<div class="slide-caption col-md-4">
+									<h2 class="slide-title">Extravagant Travel</h2>
+									<p>Travel is the main thing you purchase that makes you more extravagant.</p>
+									<p>We rouse our clients to carry on with a rich life, brimming with extraordinary travel encounters.</p>
+								</div>
+							</div>
+						</li>
+						<li data-background="../images/slides/slide-3.jpg">
+							<div class="container">
+								<div class="slide-caption col-md-4">
+									<h2 class="slide-title">Personal Service</h2>
+									<p>Our team here is friendly and affable. We are specialists in the destinations that we offer and possess deep product knowledge about them.</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="flexslider-controls">
+						<div class="container">
+							<ol class="flex-control-nav">
+								<li><a>1</a></li>
+								<li><a>2</a></li>
+								<li><a>3</a></li>
+							</ol>
 						</div>
-						<div class="filterable-items">
-							<div class="filterable-item azov">
-								<article class="offer-item">
+					</div>
+				</div>
+
+				<div class="fullwidth-block features-section">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								<div class="feature left-icon wow fadeInLeft" data-wow-delay=".3s">
+									<i class="icon-ticket"></i>
+									<h3 class="feature-title">Tickets</h3>
+									<p>Assistance with transportation.</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								<div class="feature left-icon wow fadeInLeft">
+									<i class="icon-plane"></i>
+									<h3 class="feature-title">Flights</h3>
+									<p>Assistance with flights.</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								<div class="feature left-icon wow fadeInRight">
+									<i class="icon-jetski"></i>
+									<h3 class="feature-title">Fun on the water</h3>
+									<p>Take in a 360 degree view on a thrilling ride high above the waters.</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								<div class="feature left-icon wow fadeInRight" data-wow-delay=".3s">
+									<i class="icon-shuttelcock"></i>
+									<h3 class="feature-title">Outdoor games</h3>
+									<p>Guide for outdoor games.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="fullwidth-block offers-section" data-bg-color="#f1f1f1">
+					<div class="container">
+						<h2 class="section-title">The newest offers</h2>
+						<div class="row">
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								<article class="offer wow bounceIn">
 									<figure class="featured-image">
 										<a href="offer-azov-arabat.html"><img src="../images/offers/azov/arabatskaya_strelka-thumbnail-1.jpg" alt=""></a>
 									</figure>
 									<h2 class="entry-title"><a href="offer-azov-arabat.html">Arabatskaya strelka</a></h2>
 									<p>The family rest on the shore of the warm Sea of Azov, in an ecologically clean and recreational coastal zone</p>
-									<div class="price">
-										<strong>$551</strong>
-										<small>/10 days</small>
-									</div>
+									<a href="offer-azov-arabat.html" class="button">See details</a>
 								</article>
 							</div>
-							<div class="filterable-item azov">
-								<article class="offer-item">
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								<article class="offer wow bounceIn" data-wow-delay=".1s">
 									<figure class="featured-image">
 										<a href="offer-azov-orlyatko.html"><img src="../images/offers/azov/orlyatko-thumbnail-1.jpg" alt=""></a>
 									</figure>
 									<h2 class="entry-title"><a href="offer-azov-orlyatko.html">Orlyatko</a></h2>
 									<p>The family rest on the shore of the warm Sea of Azov, in an ecologically clean and recreational coastal zone</p>
-									<div class="price">
-										<strong>$551</strong>
-										<small>/10 days</small>
-									</div>
+									<a href="offer-azov-orlyatko.html" class="button">See details</a>
 								</article>
 							</div>
 
-							<div class="filterable-item kobleve">
-								<article class="offer-item">
-									<figure class="featured-image">
-										<a href="offer-kobleve-hor.html"><img src="../images/offers/.jpg" alt=""></a>
-									</figure>
-									<h2 class="entry-title"><a href="offer-kobleve-hor.html">Horizon</a></h2>
-									<p>The hotel complex Horizon, built in 2021, is located in the center of the resort of Koblebe.</p>
-									<div class="price">
-										<strong>$600</strong>
-										<small>/10 days</small>
-									</div>
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								<article class="offer wow bounceIn" data-wow-delay=".2s">
+									<figure class="featured-image"><img src="../dummy/offer-thumbnail-2.jpg" alt=""></figure>
+									<h2 class="entry-title"><a href="">Nemo enim ipsam voluptatem</a></h2>
+									<p>Piditate non provident similique	 sunt in culpa qui oficia deserunt molitia animi est aborum et dolorum fuga</p>
+									<a href="#" class="button">See details</a>
 								</article>
 							</div>
-
-							<div class="filterable-item kobleve">
-								<article class="offer-item">
-									<figure class="featured-image">
-										<a href="#"><img src="../dummy/offer-thumbnail-3.jpg" alt=""></a>
-									</figure>
-									<h2 class="entry-title"><a href="#">Kobleve</a></h2>
-									<p>kobleve</p>
-									<div class="price">
-										<strong>$600</strong>
-										<small>/10 days</small>
-									</div>
-								</article>
-							</div>
-
-							<div class="filterable-item zatoka">
-								<article class="offer-item">
-									<figure class="featured-image">
-										<a href="offer-zatoka.html"><img src="../images/offers/zatoka/zatoka-thumbnail-1.jpg" alt=""></a>
-									</figure>
-									<h2 class="entry-title"><a href="offer-zatoka.html">Zatoka</a></h2>
-									<p>The two-storey hotel in Zatoka was built in 2021. The guests of the resort are invited to
-										rent comfortable accommodation in Zatoka on the seashore.</p>
-									<div class="price">
-										<strong>$600</strong>
-										<small>/10 days</small>
-									</div>
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								<article class="offer wow bounceIn" data-wow-delay=".4s">
+									<figure class="featured-image"><img src="../dummy/offer-thumbnail-3.jpg" alt=""></figure>
+									<h2 class="entry-title"><a href="">Nemo enim ipsam voluptatem</a></h2>
+									<p>Piditate non provident similique	 sunt in culpa qui oficia deserunt molitia animi est aborum et dolorum fuga</p>
+									<a href="#" class="button">See details</a>
 								</article>
 							</div>
 						</div>
-
-						<div class="pagination wow fadeInUp">
-							<span class="page-numbers current">1</span>
-						</div>
-
 					</div>
-
 				</div>
 
-				
 			</main> <!-- .content -->
 
 			<footer class="site-footer wow fadeInUp">
