@@ -2147,6 +2147,7 @@ body {
   float: right;
   text-align: right;
   padding: 45px 20px 20px 0;
+  display: block;
 }
 @media screen and (max-width: 990px) {
   .site-header .language-switcher {
@@ -2155,7 +2156,7 @@ body {
 }
 @media screen and (max-width: 640px) {
   .site-header .language-switcher {
-    display: none;
+    display: block;
   }
 }
 
